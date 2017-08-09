@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-peopledoc",
+  "description": "JavaScript linting rules for PeopleDoc",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-ember-suave": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "PeopleDoc team",
+  "repository": "peopledoc/eslint-config-peopledoc",
+  "license": "MIT"
+}
