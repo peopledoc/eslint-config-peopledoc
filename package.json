@@ -6,9 +6,15 @@
   "dependencies": {
     "eslint": "^4.4.1"
   },
-  "files": ["index.js"],
-  "keywords": ["eslint", "eslintconfig"],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "PeopleDoc team",
   "repository": "peopledoc/eslint-config-peopledoc",
-  "license": "MIT"
+  "license": "PeopleDoc",
+  "private": true
 }
