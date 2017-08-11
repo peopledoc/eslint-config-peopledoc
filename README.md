@@ -10,9 +10,8 @@ In your project:
 
 ## Usage
 
-Edit your `.eslintrc` config file to use `peopledoc` configuration:
+Extend your `eslint` configuration from `peopledoc` one:
 
     {
-      'root': true,
-      extends: 'peopledoc'
+      extends: ['peopledoc']
     }
