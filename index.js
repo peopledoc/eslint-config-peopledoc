@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
+  extends: ['eslint:recommended'],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-  extends: ['eslint:recommended', 'plugin:ember-suave/recommended'],
   rules: {
     "quotes": ["warn", "double"]
   }

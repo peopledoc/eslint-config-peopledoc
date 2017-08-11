@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "eslint-plugin-ember-suave": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^4.4.1"
