@@ -1,18 +1,15 @@
 'use strict';
 
 module.exports = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:ember-suave/recommended'],
   env: {
-    browser: true,
-    es6: true,
-    node: true
+    browser: true
   },
   parserOptions: {
+    ecmaVersion: 2017,
     sourceType: 'module'
   },
   rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'never']
   }
