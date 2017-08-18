@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^4.4.1",
-    "eslint-plugin-ember-suave": "^1.0.0"
+    "eslint": "4.x.x",
+    "eslint-plugin-ember-suave": "1.x.x",
   },
   "files": [
     "index.js"
@@ -15,8 +15,6 @@
     "eslintconfig"
   ],
   "author": "PeopleDoc team",
-  "repository": "peopledoc/eslint-config-peopledoc",
   "license": "PeopleDoc",
-  "private": true,
-  "devDependencies": {}
+  "private": true
 }
