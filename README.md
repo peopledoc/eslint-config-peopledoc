@@ -14,8 +14,14 @@ In your project:
 
 ## Usage
 
-Extend your `eslint` configuration from `peopledoc` one:
+:bulb: ask the [#team-js](https://peopledoc.slack.com/messages/C467CSUQZ) for help.
 
-    {
+In your project, edit your `eslint` configuration to extend `eslint-config-peopledoc`:
+
+**vanilla JS:**
+
       extends: ['peopledoc']
-    }
+
+**Ember:**
+
+      extends: ['peopledoc/ember']
