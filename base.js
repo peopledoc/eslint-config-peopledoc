@@ -3,7 +3,7 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:ember-suave/recommended'
+    'plugin:ember-suave/base'
   ],
   env: {
     browser: true
