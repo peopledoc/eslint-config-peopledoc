@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json
+
+# misc
+npm-debug.log*
