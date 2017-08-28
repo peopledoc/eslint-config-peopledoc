@@ -13,6 +13,15 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    /* our shared rules came here */
+    // ES6
+    'arrow-parens': ['error', 'always'],
+    'generator-star-spacing': ['error', { before: false, after: true }],
+    'no-var': 'error',
+    'no-useless-rename': 'error',
+    'object-shorthand': ['error', 'always'],
+    'prefer-destructuring': 'error',
+    'prefer-spread': 'error',
+    'prefer-template': 'error',
+    'eol-last': ['error', 'always']
   }
 };
