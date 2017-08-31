@@ -20,8 +20,10 @@ In your project, edit your `eslint` configuration to extend `eslint-config-peopl
 
 **vanilla JS:**
 
-      extends: ['peopledoc']
+      extends: ['peopledoc'],
+      parserOptions: { ecmaVersion: 2017 }
 
 **Ember:**
 
-      extends: ['peopledoc/ember']
+      extends: ['peopledoc/ember'],
+      parserOptions: { ecmaVersion: 2017 }
