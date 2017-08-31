@@ -2,5 +2,6 @@ module.exports = {
   env: {
     browser: true
   },
-  extends: ['./base.js', 'plugin:ember-suave/recommended']
+  extends: ['./base.js'],
+  plugins: ['ember-suave']
 };
