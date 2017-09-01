@@ -8,7 +8,7 @@
     "eslint-plugin-ember-suave": "1.x.x"
   },
   "files": [
-    "base.js",
+    "core.js",
     "ember.js",
     "index.js"
   ],

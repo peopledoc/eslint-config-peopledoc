@@ -3,5 +3,5 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ['./base.js']
+  extends: ['./core.js']
 };

@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  extends: ['./base.js']
+  extends: ['./core.js']
 };
