@@ -8,9 +8,9 @@
 
 ## Installation
 
-In your project:
+In your project, remove exisiting eslint's plugins or configuration, then:
 
-    npm install --save-dev eslint-config-peopledoc
+    npm install --save-dev peopledoc/eslint-config-peopledoc
 
 ## Usage
 

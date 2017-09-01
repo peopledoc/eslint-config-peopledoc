@@ -1,5 +1,6 @@
-'use strict';
-
 module.exports = {
-  extends: ['./base.js', 'plugin:ember-suave/recommended']
+  env: {
+    browser: true
+  },
+  extends: ['eslint:recommended', 'plugin:ember-suave/recommended', './core.js']
 };
