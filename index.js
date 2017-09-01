@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  extends: ['./core.js']
+  extends: ['eslint:recommended', './core.js']
 };

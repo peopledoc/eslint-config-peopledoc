@@ -2,5 +2,5 @@ module.exports = {
   env: {
     browser: true
   },
-  extends: ['./core.js', 'plugin:ember-suave/recommended']
+  extends: ['eslint:recommended', 'plugin:ember-suave/recommended', './core.js']
 };
