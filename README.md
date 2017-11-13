@@ -10,9 +10,12 @@ In your project, remove exisiting eslint's plugins or configuration, then:
 
 ## Usage
 
-:bulb: ask the [#team-js](https://peopledoc.slack.com/messages/C467CSUQZ) for help.
+:bulb: ask the [#team-js](https://peopledoc.slack.com/messages/C467CSUQZ) for
+help.
 
-In your project, edit your `eslint` configuration to extend `eslint-config-peopledoc`:
+In your project, edit your
+[`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage)
+to extend `eslint-config-peopledoc`:
 
 **vanilla JS:**
 
