@@ -15,7 +15,7 @@ help.
 
 In your project, edit your
 [`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage)
-to extend `eslint-config-peopledoc`:
+to extend `eslint-config-peopledoc` (see [exisiting configurations](https://github.com/peopledoc/eslint-config-peopledoc/issues/11)):
 
 **vanilla JS:**
 
