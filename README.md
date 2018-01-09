@@ -12,15 +12,23 @@ In your project, remove exisiting eslint's plugins or configuration, then:
 
 In your project, edit your
 [`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage)
-to extend `eslint-config-peopledoc` (see [exisiting configurations](https://github.com/peopledoc/eslint-config-peopledoc/issues/11)):
+to extend `peopledoc` eslint config:
+
+    module.exports = {
+      root: true,
+      extends: ['peopledoc'],
+      rules: {}
+    };
+
+Preset configurations are available for:
 
 **vanilla JS:**
 
-      extends: ['peopledoc']
+    extends: ['peopledoc']
 
 **Ember:**
 
-      extends: ['peopledoc/ember']
+    extends: ['peopledoc/ember']
 
 ## License
 
