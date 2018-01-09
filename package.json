@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-peopledoc",
-  "description": "JavaScript linting rules for PeopleDoc",
+  "description": "JavaScript linting rules used at PeopleDoc",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -16,9 +16,12 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "PeopleDoc team",
-  "license": "PeopleDoc",
-  "private": true,
+  "author": "The PeopleDoc Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peopledoc/eslint-config-peopledoc.git"
+  },
   "engines": {
     "node": ">= 8",
     "npm": ">= 5.1"
