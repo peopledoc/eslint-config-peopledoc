@@ -10,9 +10,6 @@ In your project, remove exisiting eslint's plugins or configuration, then:
 
 ## Usage
 
-:bulb: ask the [#team-js](https://peopledoc.slack.com/messages/C467CSUQZ) for
-help.
-
 In your project, edit your
 [`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage)
 to extend `eslint-config-peopledoc` (see [exisiting configurations](https://github.com/peopledoc/eslint-config-peopledoc/issues/11)):
@@ -24,3 +21,7 @@ to extend `eslint-config-peopledoc` (see [exisiting configurations](https://gith
 **Ember:**
 
       extends: ['peopledoc/ember']
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
