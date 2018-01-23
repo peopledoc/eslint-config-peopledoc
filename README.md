@@ -30,6 +30,10 @@ Preset configurations are available for:
 
     extends: ['peopledoc/ember']
 
+**ES5 only**
+
+    extends: ['peopledoc/es5']
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
