@@ -1,6 +1,12 @@
 module.exports = {
   env: {
-    browser: true
+    browser: true,
+    embertest: true
   },
-  extends: ['eslint:recommended', 'plugin:ember-suave/recommended', './core.js']
+  globals: {
+    server: true, // mirage
+    withFeature: true, // feature flag
+    withoutFeature: true
+  },
+  extends: ["eslint:recommended", "plugin:ember-suave/recommended", "./core.js"]
 };
