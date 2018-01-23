@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "4.x.x",
-    "eslint-plugin-ember-suave": "1.x.x"
+    "eslint-plugin-ember-suave": "1.x.x",
+    "eslint-plugin-es5": "1.x.x"
   },
   "files": [
     "core.js",
