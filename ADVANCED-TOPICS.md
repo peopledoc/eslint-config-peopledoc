@@ -47,6 +47,54 @@ Separate them with `,` (comma)
 // eslint-disable-next-line no-alert, no-console
 ```
 
+### Declare Global Variables
+
+You can [do that at several levels](https://eslint.org/docs/user-guide/configuring#specifying-globals): file, globally or per directory.
+
+#### Using `env`
+
+For the common use-cases you can leverage the [`env` property](https://eslint.org/docs/user-guide/configuring#specifying-environments) to setup an environment that defines [global variables](https://github.com/sindresorhus/globals/blob/master/globals.json).
+
+#### At File Level
+
+```js
+/* global loginUser, logmatic */
+```
+or
+```js
+/* eslint-env node, browser, jquery */
+```
+
+#### At Global Level
+
+  ```js
+  /* global loginUser, logmatic */
+  ```
+
+or
+
+  ```js
+  {
+    env : {
+      node  : true,
+      jquery : true,
+      browser : true,
+    }
+  }
+  ```
+
+#### In Specific Directory
+
+Create a `.eslintrc.js` file in the targeted directory.
+
+```js
+module.exports = {
+  globals: {
+    logmatic: true,
+  }
+};
+```
+
 ### Existing Presets
 
 ##### Core
