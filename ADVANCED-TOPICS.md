@@ -1,4 +1,53 @@
-## Existing Presets
+### Usage
+
+### Disable Rules
+[Disabling Rules with Inline Comments](https://eslint.org/docs/user-guide/configuring#disabling-rules-with-inline-comments)
+
+#### Disable Rule For Single Line
+
+  ```js
+  // eslint-disable-next-line no-alert
+  alert('foo');
+  ```
+
+:warning: don't use `// eslint-disable-line` as formatter like `prettier` will move them to a separate line.
+
+
+#### Disable Rule For A Block Of Lines
+
+  ```js
+  /* eslint-disable no-alert */
+  alert('doing awful things');
+  /* eslint-enable no-alert */
+  ```
+
+#### Disable Linting Completely
+
+```js
+/* eslint-disable */
+…
+/* eslint-enable */
+```
+
+```js
+// eslint-disable-next-line
+```
+
+#### Disable Multiple Rules
+
+Separate them with `,` (comma)
+
+```js
+/* eslint-disable no-alert, no-console */
+…
+/* eslint-enable */
+```
+
+```js
+// eslint-disable-next-line no-alert, no-console
+```
+
+### Existing Presets
 
 ##### Core
 
@@ -35,7 +84,7 @@
 * file: _es5.js_
 * targeted environment: browser
 
-## Create a new preset
+### Create a new preset
 
 Let's assume you want to create a new preset for `ES8`.
 
