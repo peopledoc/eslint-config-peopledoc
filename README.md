@@ -34,6 +34,17 @@ Preset configurations are available for:
 
     extends: ['peopledoc/es5']
 
+### Formatting Code
+
+We use prettier-eslint in order to format it with `prettier` ([why?](https://prettier.io/docs/en/why-prettier.html)) then fix issue with `eslint --fix`:
+
+    ./node_modules/.bin/prettier-eslint --list-different --single-quote {app,config,mirage,lib,server,tests}/{**/,}*.js
+
+Once you have review change you can write them with
+
+    ./node_modules/.bin/prettier-eslint --write --single-quote {app,config,mirage,lib,server,tests}/{**/,}*.js
+
+:bulb: We recomment to add a custom `format` script to your _package.json_ so you can run `npm format`
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
