@@ -67,18 +67,25 @@ or
 
 #### At Global Level
 
+Edit your configuration file to add a `globals` object where each key is a global variable we want to use:
+
   ```js
-  /* global loginUser, logmatic */
+    {
+      globals: {
+        loginUser: true,
+        logmatic: true
+      }
+    }
   ```
 
-or
+or add a `env` object where each key is a [predefined preset of globals](https://eslint.org/docs/user-guide/configuring#specifying-environments):
 
   ```js
   {
     env : {
-      node  : true,
-      jquery : true,
-      browser : true,
+      node: true,
+      jquery: true,
+      browser: true,
     }
   }
   ```
@@ -165,7 +172,7 @@ Let's assume you want to create a new preset for `ES8`.
 
 > Specify the version of ECMAScript syntax you want to use.
 
-* what to use: [`ecmaVersion`](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
+* what to use: [`parserOptions.ecmaVersion`](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
 * example: for `ES6` syntax, use
 
   ```js
