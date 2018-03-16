@@ -7,5 +7,10 @@ module.exports = {
     server: true, // mirage
     withFeature: true // feature flag
   },
-  extends: ["eslint:recommended", "plugin:ember-suave/recommended", "./core.js"]
+  extends: [
+    'eslint:recommended',
+    'plugin:ember/recommended',
+    'plugin:ember-suave/recommended',
+    './core.js'
+  ]
 };
