@@ -7,3 +7,4 @@ package-lock.json
 
 # misc
 npm-debug.log*
+yarn-error.log
