@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     // ES6
     'arrow-parens': ['error', 'always'],
+    'eol-last': ['error', 'always'],
     'generator-star-spacing': ['error', { before: false, after: true }],
     'no-var': 'error',
     'no-useless-rename': 'error',
@@ -17,6 +18,6 @@ module.exports = {
     'prefer-destructuring': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
-    'eol-last': ['error', 'always']
+    semi: ['error', 'never']
   }
 };
