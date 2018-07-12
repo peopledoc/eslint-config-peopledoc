@@ -44,7 +44,9 @@ Once you have review change you can write them with
 
     ./node_modules/.bin/prettier-eslint --write --single-quote {app,config,mirage,lib,server,tests}/{**/,}*.js
 
-:bulb: We recomment to add a custom `format` script to your _package.json_ so you can run `npm format`
+:bulb: We recomment to add a custom `format` script to your
+_package.json_ so you can run `npm format`
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
