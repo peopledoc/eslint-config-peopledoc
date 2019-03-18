@@ -4,11 +4,11 @@
   "version": "1.5.0",
   "main": "index.js",
   "dependencies": {
-    "eslint": "4.x.x",
-    "eslint-plugin-ember": "5.x.x",
+    "eslint": "5.x.x",
+    "eslint-plugin-ember": "6.x.x",
     "eslint-plugin-ember-suave": "1.x.x",
     "eslint-plugin-es5": "1.x.x",
-    "eslint-plugin-prettier": "2.x.x",
+    "eslint-plugin-prettier": "3.x.x",
     "prettier": "1.x.x",
     "prettier-eslint-cli": "4.x.x"
   },

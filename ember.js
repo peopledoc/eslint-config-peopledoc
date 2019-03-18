@@ -7,26 +7,33 @@ module.exports = {
     server: true, // mirage
     withFeature: true // feature flag
   },
-  plugins: ['ember'],
+
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: "module"
+  },
+  plugins: ["ember"],
   extends: [
-    'eslint:recommended',
-    'plugin:ember/recommended',
-    'plugin:ember-suave/recommended',
-    './core.js'
+    "eslint:recommended",
+    "plugin:ember/recommended",
+    "plugin:ember-suave/recommended",
+    "./core.js"
   ],
   overrides: [
     // node files
     {
       files: [
-        '.template-lintrc.js',
-        'ember-cli-build.js',
-        'testem.js',
-        'blueprints/*/index.js',
-        'config/**/*.js',
-        'lib/*/index.js'
+        ".eslintrc.js",
+        ".template-lintrc.js",
+        "ember-cli-build.js",
+        "testem.js",
+        "blueprints/*/index.js",
+        "config/**/*.js",
+        "lib/*/index.js",
+        "server/**/*.js"
       ],
       parserOptions: {
-        sourceType: 'script',
+        sourceType: "script",
         ecmaVersion: 2015
       },
       env: {
@@ -35,4 +42,4 @@ module.exports = {
       }
     }
   ]
-};
+}

@@ -1,6 +1,6 @@
-'use strict';
+"use strict"
 
 module.exports = {
-  extends: ['./base.js'],
-  plugins: ['prettier']
-};
+  extends: ["./base.js"],
+  plugins: ["prettier"]
+}
