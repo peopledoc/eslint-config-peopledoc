@@ -3,13 +3,13 @@ module.exports = {
     ecmaVersion: 5
   },
   extends: [
-    'eslint:recommended',
-    'plugin:es5/no-es2015',
-    'plugin:es5/no-es2016'
+    "eslint:recommended",
+    "plugin:es5/no-es2015",
+    "plugin:es5/no-es2016"
   ],
-  plugins: ['es5'],
+  plugins: ["es5"],
   env: {
     jquery: true,
     browser: true
   }
-};
+}
