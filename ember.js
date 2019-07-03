@@ -7,7 +7,6 @@ module.exports = {
     server: true, // mirage
     withFeature: true // feature flag
   },
-
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: "module"
@@ -26,11 +25,19 @@ module.exports = {
         ".eslintrc.js",
         ".template-lintrc.js",
         "ember-cli-build.js",
+        "index.js",
         "testem.js",
         "blueprints/*/index.js",
         "config/**/*.js",
+        "tests/dummy/config/**/*.js",
         "lib/*/index.js",
         "server/**/*.js"
+      ],
+      excludedFiles: [
+        "addon/**",
+        "addon-test-support/**",
+        "app/**",
+        "tests/dummy/app/**"
       ],
       parserOptions: {
         sourceType: "script",
@@ -39,7 +46,15 @@ module.exports = {
       env: {
         browser: false,
         node: true
-      }
+      },
+      plugins: ["node"],
+      rules: Object.assign(
+        {},
+        require("eslint-plugin-node").configs.recommended.rules,
+        {
+          // add your custom rules and overrides for node files here
+        }
+      )
     }
   ]
 }
