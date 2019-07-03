@@ -8,9 +8,10 @@
     "eslint-plugin-ember": "6.x.x",
     "eslint-plugin-ember-suave": "1.x.x",
     "eslint-plugin-es5": "1.x.x",
+    "eslint-plugin-node": "9.x.x",
     "eslint-plugin-prettier": "3.x.x",
     "prettier": "1.x.x",
-    "prettier-eslint-cli": "4.x.x"
+    "prettier-eslint-cli": "5.x.x"
   },
   "files": [
     "core.js",
