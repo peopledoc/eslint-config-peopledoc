@@ -208,3 +208,9 @@ Let's assume you want to create a new preset for `ES8`.
     'plugin:es5/no-es2016'
   ],
   ```
+
+### Adding polyfills info for the [compat plugin](https://github.com/amilajack/eslint-plugin-compat)
+
+This will vary depending on your app, mostly of your usage of [ember-cli-babel-polyfills](https://github.com/pzuraq/ember-cli-babel-polyfills).
+
+Please refer to https://github.com/amilajack/eslint-plugin-compat#adding-polyfills.

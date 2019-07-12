@@ -16,6 +16,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:ember/recommended",
     "plugin:ember-suave/recommended",
+    "plugin:compat/recommended",
     "./core.js"
   ],
   overrides: [
@@ -48,7 +49,9 @@ module.exports = {
       },
       plugins: ["node"],
       rules: Object.assign(
-        {},
+        {
+          "compat/compat": false
+        },
         require("eslint-plugin-node").configs.recommended.rules,
         {
           // add your custom rules and overrides for node files here

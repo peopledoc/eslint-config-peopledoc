@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "eslint": "5.x.x",
+    "eslint-plugin-compat": "^3.2.0",
     "eslint-plugin-ember": "6.x.x",
     "eslint-plugin-ember-suave": "1.x.x",
     "eslint-plugin-es5": "1.x.x",
