@@ -49,9 +49,7 @@ module.exports = {
       },
       plugins: ["node"],
       rules: Object.assign(
-        {
-          "compat/compat": false
-        },
+        {},
         require("eslint-plugin-node").configs.recommended.rules,
         {
           // add your custom rules and overrides for node files here
@@ -61,6 +59,28 @@ module.exports = {
           "node/no-unpublished-require": "off"
         }
       )
+    },
+    // deactivate compat
+    {
+      files: [
+        ".eslintrc.js",
+        ".template-lintrc.js",
+        "ember-cli-build.js",
+        "index.js",
+        "testem.js",
+        "blueprints/*/index.js",
+        "config/**/*.js",
+        "server/**/*.js",
+        "tests/dummy/config/**/*.js",
+        "tests/**",
+        "mirage/**"
+      ],
+      rules: {
+        "compat/compat": false
+      }
     }
-  ]
+  ],
+  settings: {
+    polyfills: ["Promise"]
+  }
 }
