@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-peopledoc",
   "description": "JavaScript linting rules used at PeopleDoc",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "main": "index.js",
   "dependencies": {
     "eslint": "5.x.x",
