@@ -19,6 +19,12 @@ module.exports = {
     "./core.js"
   ],
   overrides: [
+    {
+      files: ["testem.js"],
+      rules: {
+        camelcase: 0
+      }
+    },
     // node files
     {
       files: [
