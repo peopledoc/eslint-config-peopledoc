@@ -11,6 +11,17 @@ In your project, remove exisiting ESLint's plugins or configuration, then:
 npm install --save-dev peopledoc/eslint-config-peopledoc
 ```
 
+If you add this configuration to a project using Ember 3.12+, you need to install `babel-eslint`:
+
+```sh
+# with npm
+npm install --save-dev babel-eslint
+
+# or with yarn
+yarn add babel-eslint --dev
+```
+
+
 ## Usage
 
 In your project, edit your [`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage) to extend `peopledoc` ESLint config:
