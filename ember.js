@@ -7,7 +7,7 @@ module.exports = {
     server: true, // mirage
     withFeature: true // feature flag
   },
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module",

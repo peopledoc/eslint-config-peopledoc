@@ -1,5 +1,4 @@
 module.exports = {
-  extends: [],
   env: {
     es6: true
   },
@@ -7,6 +6,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
+  extends: [],
   rules: {
     // ES6
     "arrow-parens": ["error", "always"],

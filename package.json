@@ -17,7 +17,8 @@
     "core.js",
     "ember.js",
     "es5.js",
-    "index.js"
+    "index.js",
+    "prettier.js"
   ],
   "keywords": [
     "eslint",
