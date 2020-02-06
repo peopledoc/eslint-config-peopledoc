@@ -7,8 +7,13 @@
 ## Installation
 
 In your project, remove exisiting ESLint's plugins or configuration, then:
-```shell
-npm install --save-dev peopledoc/eslint-config-peopledoc
+
+```sh
+# with npm
+npm install --save-dev eslint-config-peopledoc
+
+# or with yarn
+yarn add eslint-config-peopledoc --dev
 ```
 
 If you add this configuration to a project using Ember 3.12+, you need to install `babel-eslint`:
@@ -21,7 +26,6 @@ npm install --save-dev babel-eslint
 yarn add babel-eslint --dev
 ```
 
-
 ## Usage
 
 In your project, edit your [`eslint` configuration](https://eslint.org/docs/user-guide/getting-started#global-installation-and-usage) to extend `peopledoc` ESLint config:
@@ -31,7 +35,7 @@ module.exports = {
   root: true,
   extends: ['peopledoc'],
   rules: {}
-};
+}
 ```
 
 Preset configurations are available for:
@@ -52,6 +56,12 @@ extends: ['peopledoc/ember']
 
 ```js
 extends: ['peopledoc/es5']
+```
+
+**Prettier**
+
+```js
+extends: ['peopledoc/prettier']
 ```
 
 ### Formatting Code
