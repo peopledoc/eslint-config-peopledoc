@@ -66,7 +66,7 @@ extends: ['peopledoc/prettier']
 
 ### Formatting Code
 
-We use prettier-eslint in order to format it with `prettier` ([why?](https://prettier.io/docs/en/why-prettier.html)) then fix issue with `eslint --fix`:
+We recommand to use prettier-eslint in order to format it with `prettier` ([why?](https://prettier.io/docs/en/why-prettier.html)) then fix issue with `eslint --fix`:
 
 ```shell
 ./node_modules/.bin/prettier-eslint --list-different --single-quote {app,config,mirage,server,tests}/{**/,}*.js
