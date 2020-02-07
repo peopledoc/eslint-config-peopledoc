@@ -4,17 +4,17 @@
   "version": "1.7.2",
   "main": "index.js",
   "dependencies": {
-    "eslint": "5.x.x",
-    "eslint-plugin-ember": "6.x.x",
-    "eslint-plugin-ember-suave": "1.x.x",
+    "eslint-plugin-ember": "7.x.x",
+    "eslint-plugin-ember-suave": "2.x.x",
     "eslint-plugin-es5": "1.x.x",
-    "eslint-plugin-node": "9.x.x",
+    "eslint-plugin-node": "10.x.x",
     "eslint-plugin-prettier": "3.x.x",
-    "prettier": "1.x.x",
     "prettier-eslint-cli": "5.x.x"
   },
   "files": [
     "core.js",
+    "ember-addon.js",
+    "ember-test.js",
     "ember.js",
     "es5.js",
     "index.js",
