@@ -13,6 +13,7 @@ module.exports = {
   plugins: ["ember", "ember-suave"],
   extends: [
     "eslint:recommended",
+    "plugin:ember/recommended",
     "plugin:ember-suave/recommended",
     "./core.js"
   ],
