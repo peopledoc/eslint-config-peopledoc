@@ -18,6 +18,13 @@ module.exports = {
     "prefer-destructuring": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
-    semi: ["error", "never"]
+    semi: ["error", "never"],
+    "lines-between-class-members": [
+      "error",
+      "always",
+      {
+        exceptAfterSingleLine: true
+      }
+    ]
   }
 }
