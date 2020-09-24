@@ -25,6 +25,14 @@ module.exports = {
       {
         exceptAfterSingleLine: true
       }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        anonymous: "always",
+        named: "never",
+        asyncArrow: "always"
+      }
     ]
   }
 }
