@@ -33,6 +33,12 @@ module.exports = {
         named: "never",
         asyncArrow: "always"
       }
+    ],
+    "arrow-spacing": [
+      "error", {
+        before: true,
+        after: true
+      }
     ]
   }
 }
