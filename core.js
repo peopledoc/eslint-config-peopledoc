@@ -6,10 +6,10 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  extends: [],
   rules: {
     // ES6
     "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "never"],
     "eol-last": ["error", "always"],
     "generator-star-spacing": ["error", { before: false, after: true }],
     "no-var": "error",
@@ -35,7 +35,8 @@ module.exports = {
       }
     ],
     "arrow-spacing": [
-      "error", {
+      "error",
+      {
         before: true,
         after: true
       }

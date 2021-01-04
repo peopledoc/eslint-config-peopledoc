@@ -4,17 +4,16 @@
   "version": "2.0.2",
   "main": "index.js",
   "dependencies": {
-    "eslint-plugin-ember": "9.x.x",
-    "eslint-plugin-ember-suave": "2.x.x",
-    "eslint-plugin-es5": "1.x.x",
-    "eslint-plugin-node": "11.x.x",
-    "eslint-plugin-prettier": "3.x.x",
-    "prettier-eslint-cli": "5.x.x"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-ember": "^10.4.2",
+    "eslint-plugin-ember-suave": "^2.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-qunit": "^6.1.1",
+    "prettier": "^2.3.0"
   },
   "files": [
-    "core.js",
     "ember-addon.js",
-    "ember-test.js",
     "ember.js",
     "es5.js",
     "index.js",
@@ -31,7 +30,6 @@
     "url": "https://github.com/peopledoc/eslint-config-peopledoc.git"
   },
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5.1"
+    "node": "12.* || 14.* || >= 16"
   }
 }
