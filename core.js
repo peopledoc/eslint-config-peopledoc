@@ -1,12 +1,11 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: "module",
   },
-  extends: [],
   rules: {
     // ES6
     "arrow-parens": ["error", "always"],
@@ -23,22 +22,23 @@ module.exports = {
       "error",
       "always",
       {
-        exceptAfterSingleLine: true
-      }
+        exceptAfterSingleLine: true,
+      },
     ],
     "space-before-function-paren": [
       "error",
       {
         anonymous: "always",
         named: "never",
-        asyncArrow: "always"
-      }
+        asyncArrow: "always",
+      },
     ],
     "arrow-spacing": [
-      "error", {
+      "error",
+      {
         before: true,
-        after: true
-      }
-    ]
-  }
+        after: true,
+      },
+    ],
+  },
 }

@@ -2,5 +2,5 @@
 
 module.exports = {
   plugins: ["prettier"],
-  extends: ["./core.js"]
+  extends: ["./core.js"],
 }
