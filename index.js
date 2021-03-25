@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["eslint:recommended", "./core.js"]
+  extends: ["eslint:recommended", "./core.js"],
 }
