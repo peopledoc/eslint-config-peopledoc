@@ -4,7 +4,7 @@
   "version": "2.0.2",
   "main": "index.js",
   "dependencies": {
-    "eslint-plugin-ember": "9.x.x",
+    "eslint-plugin-ember": "10.x.x",
     "eslint-plugin-ember-suave": "2.x.x",
     "eslint-plugin-es5": "1.x.x",
     "eslint-plugin-node": "11.x.x",
