@@ -13,7 +13,9 @@
     "prettier": "^2.3.0"
   },
   "files": [
+    "core.js",
     "ember-addon.js",
+    "ember-core.js",
     "ember.js",
     "es5.js",
     "index.js",
