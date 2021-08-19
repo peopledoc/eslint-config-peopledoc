@@ -1,40 +1,18 @@
 module.exports = {
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
-    ecmaFeatures: {
-      legacyDecorators: true
-    }
-  },
-  plugins: [
-    "ember",
-    "ember-suave"
-  ],
-  extends: [
-    "eslint:recommended",
-    "plugin:ember/recommended",
-    "plugin:ember-suave/recommended",
-    "./core.js"
-  ],
-  env: {
-    browser: true
-  },
-  rules: {
-    "ember/no-jquery": "warn",
-    "ember-suave/require-access-in-comments": "off"
-  },
+  extends: ["./ember-core.js"],
   overrides: [
     // node files
     {
       files: [
-        ".eslintrc.js",
-        ".template-lintrc.js",
-        "ember-cli-build.js",
-        "testem.js",
-        "config/**/*.js",
-        "lib/*/index.js",
-        "server/**/*.js"
+        "./.eslintrc.js",
+        "./.prettierrc.js",
+        "./.template-lintrc.js",
+        "./ember-cli-build.js",
+        "./testem.js",
+        "./blueprints/*/index.js",
+        "./config/**/*.js",
+        "./lib/*/index.js",
+        "./server/**/*.js"
       ],
       parserOptions: {
         sourceType: "script"
@@ -44,19 +22,15 @@ module.exports = {
         node: true
       },
       plugins: ["node"],
-      extends: ['plugin:node/recommended'],
-      rules: {
-        // this can be removed once the following is fixed
-        // https://github.com/mysticatea/eslint-plugin-node/issues/77
-        'node/no-unpublished-require': 'off'
-      }
-    },
-    // testem config file
-    {
-      files: ["testem.js"],
-      rules: {
-        camelcase: "off"
-      }
+      rules: Object.assign(
+        {},
+        require("eslint-plugin-node").configs.recommended.rules,
+        {
+          // this can be removed once the following is fixed
+          // https://github.com/mysticatea/eslint-plugin-node/issues/77
+          "node/no-unpublished-require": "off"
+        }
+      )
     }
   ]
 }

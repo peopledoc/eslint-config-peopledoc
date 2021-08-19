@@ -58,12 +58,6 @@ extends: ['peopledoc/ember']
 extends: ['peopledoc/ember-addon']
 ```
 
-**Ember Test:**
-
-```js
-extends: ['peopledoc/ember-test']
-```
-
 **ES5 only**
 
 ```js
@@ -78,19 +72,7 @@ extends: ['peopledoc/prettier']
 
 ### Formatting Code
 
-We recommend to use prettier-eslint in order to format it with `prettier` ([why?](https://prettier.io/docs/en/why-prettier.html)) then fix issue with `eslint --fix`:
-
-```shell
-./node_modules/.bin/prettier-eslint --list-different --single-quote {app,config,mirage,server,tests}/{**/,}*.js
-```
-
-Once you have review change you can write them with
-
-```shell
-./node_modules/.bin/prettier-eslint --write --single-quote {app,config,mirage,server,tests}/{**/,}*.js
-```
-
-:bulb: We recommend to add a custom `format` script to your _package.json_ so you can run `npm format`.
+We recommend to use `eslint . --fix`.
 
 ## License
 
