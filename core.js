@@ -15,7 +15,16 @@ module.exports = {
     "no-var": "error",
     "no-useless-rename": "error",
     "object-shorthand": ["error", "always"],
-    "prefer-destructuring": "error",
+    "prefer-destructuring": ["error", {
+      "VariableDeclarator": {
+        "array": true,
+        "object": true
+      },
+      "AssignmentExpression": {
+        "array": false,
+        "object": false
+      }
+    }],
     "prefer-spread": "error",
     "prefer-template": "error",
     semi: ["error", "never"],
