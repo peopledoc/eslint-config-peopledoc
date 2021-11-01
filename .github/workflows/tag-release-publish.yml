@@ -1,0 +1,18 @@
+# GitHub Actions documentation:
+# https://docs.github.com/en/actions
+
+name: Create new `git tag`, create new GitHub release and publish to NPM
+
+on:
+  push:
+    branches: master
+
+concurrency:
+  group: tag-release-publish-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  org:
+    uses: peopledoc/.github/.github/workflows/js--tag-release-publish.yml@main
+    secrets:
+      npm_automation_token: ${{ secrets.NPM_AUTOMATION_TOKEN }}
