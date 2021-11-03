@@ -33,7 +33,10 @@
     "lint",
     "linter"
   ],
-  "author": "The PeopleDoc Team",
+  "author": {
+    "name": "PeopleDoc",
+    "url": "https://github.com/peopledoc"
+  },
   "license": "MIT",
   "homepage": "https://github.com/peopledoc/eslint-config-peopledoc",
   "repository": {
