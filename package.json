@@ -39,10 +39,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/peopledoc/eslint-config-peopledoc",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/peopledoc/eslint-config-peopledoc.git"
-  },
+  "repository": "https://github.com/peopledoc/eslint-config-peopledoc",
   "engines": {
     "node": "12.* || 14.* || >= 16"
   },
