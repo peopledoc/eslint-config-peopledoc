@@ -22,8 +22,16 @@
     "prettier.js"
   ],
   "keywords": [
+    "ember",
+    "emberjs",
     "eslint",
-    "eslintconfig"
+    "eslint-config",
+    "eslint-rules",
+    "eslintconfig",
+    "eslintrc",
+    "javascript",
+    "lint",
+    "linter"
   ],
   "author": "The PeopleDoc Team",
   "license": "MIT",
