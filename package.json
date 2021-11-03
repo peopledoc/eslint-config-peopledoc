@@ -35,6 +35,7 @@
   ],
   "author": "The PeopleDoc Team",
   "license": "MIT",
+  "homepage": "https://github.com/peopledoc/eslint-config-peopledoc",
   "repository": {
     "type": "git",
     "url": "https://github.com/peopledoc/eslint-config-peopledoc.git"
