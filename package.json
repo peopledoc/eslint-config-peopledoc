@@ -2,16 +2,27 @@
   "name": "eslint-config-peopledoc",
   "description": "JavaScript linting rules used at PeopleDoc",
   "version": "3.0.2",
-  "main": "index.js",
-  "dependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-ember": "^10.4.2",
-    "eslint-plugin-ember-suave": "^2.0.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-qunit": "^7.0.0",
-    "prettier": "^2.3.0"
+  "license": "MIT",
+  "author": {
+    "name": "PeopleDoc",
+    "url": "https://github.com/peopledoc"
   },
+  "homepage": "https://github.com/peopledoc/eslint-config-peopledoc",
+  "repository": "https://github.com/peopledoc/eslint-config-peopledoc",
+  "bugs": "https://github.com/peopledoc/eslint-config-peopledoc/issues",
+  "keywords": [
+    "ember",
+    "emberjs",
+    "eslint",
+    "eslint-config",
+    "eslint-rules",
+    "eslintconfig",
+    "eslintrc",
+    "javascript",
+    "lint",
+    "linter"
+  ],
+  "main": "index.js",
   "files": [
     "core.js",
     "ember-addon.js",
@@ -21,15 +32,14 @@
     "index.js",
     "prettier.js"
   ],
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "author": "The PeopleDoc Team",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/peopledoc/eslint-config-peopledoc.git"
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-ember": "^10.4.2",
+    "eslint-plugin-ember-suave": "^2.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-qunit": "^7.0.0",
+    "prettier": "^2.3.0"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
