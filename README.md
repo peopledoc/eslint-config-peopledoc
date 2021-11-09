@@ -74,6 +74,11 @@ extends: ['peopledoc/prettier']
 
 We recommend to use `eslint . --fix`.
 
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
