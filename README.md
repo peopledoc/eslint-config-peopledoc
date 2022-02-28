@@ -115,13 +115,20 @@ We recommend to use `eslint . --fix`.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/yonmey">
+            <img src="https://avatars.githubusercontent.com/u/3025706?v=4" width="100;" alt="yonmey"/>
+            <br />
+            <sub><b>yonmey</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/ndekeister-us">
             <img src="https://avatars.githubusercontent.com/u/56396753?v=4" width="100;" alt="ndekeister-us"/>
             <br />
             <sub><b>ndekeister-us</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/KamiKillertO">
             <img src="https://avatars.githubusercontent.com/u/9579729?v=4" width="100;" alt="KamiKillertO"/>
@@ -141,13 +148,6 @@ We recommend to use `eslint . --fix`.
             <img src="https://avatars.githubusercontent.com/u/1423394?v=4" width="100;" alt="Pixelik"/>
             <br />
             <sub><b>Pixelik</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/yonmey">
-            <img src="https://avatars.githubusercontent.com/u/3025706?v=4" width="100;" alt="yonmey"/>
-            <br />
-            <sub><b>yonmey</b></sub>
         </a>
     </td>
     <td align="center">
