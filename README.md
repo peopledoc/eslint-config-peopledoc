@@ -101,17 +101,17 @@ We recommend to use `eslint . --fix`.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/ryuran">
-            <img src="https://avatars.githubusercontent.com/u/1309340?v=4" width="100;" alt="ryuran"/>
-            <br />
-            <sub><b>ryuran</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/yonmey">
             <img src="https://avatars.githubusercontent.com/u/3025706?v=4" width="100;" alt="yonmey"/>
             <br />
             <sub><b>yonmey</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/ryuran">
+            <img src="https://avatars.githubusercontent.com/u/1309340?v=4" width="100;" alt="ryuran"/>
+            <br />
+            <sub><b>ryuran</b></sub>
         </a>
     </td>
     <td align="center">
