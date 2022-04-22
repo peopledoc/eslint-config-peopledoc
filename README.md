@@ -130,6 +130,13 @@ We recommend to use `eslint . --fix`.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/yonmey">
+            <img src="https://avatars.githubusercontent.com/u/3025706?v=4" width="100;" alt="yonmey"/>
+            <br />
+            <sub><b>yonmey</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/KamiKillertO">
             <img src="https://avatars.githubusercontent.com/u/9579729?v=4" width="100;" alt="KamiKillertO"/>
             <br />
