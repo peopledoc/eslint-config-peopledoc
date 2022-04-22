@@ -5,7 +5,8 @@ module.exports = {
     sourceType: "module",
     ecmaFeatures: {
       legacyDecorators: true
-    }
+    },
+    requireConfigFile: false
   },
   plugins: ["ember", "ember-suave"],
   extends: [
