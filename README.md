@@ -16,14 +16,14 @@ npm install --save-dev eslint-config-peopledoc
 yarn add eslint-config-peopledoc --dev
 ```
 
-If you add this configuration to a project using Ember 3.12+, you need to install `babel-eslint`:
+If you add this configuration to a project using Ember 3.24+ and ESLint 8, you need to install `@babel/core` and `@babel/eslint-parser`:
 
 ```sh
 # with npm
-npm install --save-dev babel-eslint
+npm install eslint @babel/core @babel/eslint-parser --save-dev
 
 # or with yarn
-yarn add babel-eslint --dev
+yarn add eslint @babel/core @babel/eslint-parser -D
 ```
 
 ## Usage
