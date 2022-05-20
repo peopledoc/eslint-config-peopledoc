@@ -20,10 +20,10 @@ If you add this configuration to a project using Ember 3.24+ and ESLint 8, you n
 
 ```sh
 # with npm
-npm install eslint @babel/core @babel/eslint-parser --save-dev
+npm install eslint @babel/core @babel/eslint-parser @babel/plugin-proposal-decorators --save-dev
 
 # or with yarn
-yarn add eslint @babel/core @babel/eslint-parser -D
+yarn add eslint @babel/core @babel/eslint-parser @babel/plugin-proposal-decorators -D
 ```
 
 ## Usage
