@@ -21,11 +21,7 @@ module.exports = {
         browser: false,
         node: true
       },
-      plugins: ["node"],
-      rules: Object.assign(
-        {},
-        require("eslint-plugin-node").configs.recommended.rules
-      )
+      extends: ["plugin:n/recommended"]
     }
   ]
 }
