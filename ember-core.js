@@ -12,11 +12,10 @@ module.exports = {
       plugins: [['@babel/plugin-proposal-decorators', { legacy: true }]]
     }
   },
-  plugins: ["ember", "ember-suave"],
+  plugins: ["ember"],
   extends: [
     "eslint:recommended",
     "plugin:ember/recommended",
-    "plugin:ember-suave/recommended",
     "plugin:prettier/recommended",
     "./core.js"
   ],
