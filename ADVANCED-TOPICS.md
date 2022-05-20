@@ -122,7 +122,7 @@ module.exports = {
 
 ##### Ember Configuration
 
-> For Ember project, extends `eslint:recommended`, popular [`ember-suave/recommended`](https://github.com/DockYard/eslint-plugin-ember-suave/) plugin and `core.js`.
+> For Ember project, extends `eslint:recommended`, `ember/recommended` and `core.js`.
 
 * usage:
 

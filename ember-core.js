@@ -1,17 +1,21 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
+    ecmaVersion: 2021,
+    sourceType: 'module',
     ecmaFeatures: {
       legacyDecorators: true
+    },
+
+    requireConfigFile: false,
+    babelOptions: {
+      plugins: [['@babel/plugin-proposal-decorators', { legacy: true }]]
     }
   },
-  plugins: ["ember", "ember-suave"],
+  plugins: ["ember"],
   extends: [
     "eslint:recommended",
     "plugin:ember/recommended",
-    "plugin:ember-suave/recommended",
     "plugin:prettier/recommended",
     "./core.js"
   ],
