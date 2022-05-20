@@ -16,7 +16,7 @@ npm install --save-dev eslint-config-peopledoc
 yarn add eslint-config-peopledoc --dev
 ```
 
-If you add this configuration to a project using Ember 3.24+ and ESLint 8, you need to install `@babel/core` and `@babel/eslint-parser`:
+If you add this configuration to a project using Ember, you need to install `@babel/core`, `@babel/eslint-parser` and `@babel/plugin-proposal-decorators`:
 
 ```sh
 # with npm
