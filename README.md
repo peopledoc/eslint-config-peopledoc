@@ -130,6 +130,13 @@ We recommend to use `eslint . --fix`.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Pixelik">
+            <img src="https://avatars.githubusercontent.com/u/1423394?v=4" width="100;" alt="Pixelik"/>
+            <br />
+            <sub><b>Pixelik</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/KamiKillertO">
             <img src="https://avatars.githubusercontent.com/u/9579729?v=4" width="100;" alt="KamiKillertO"/>
             <br />
@@ -141,13 +148,6 @@ We recommend to use `eslint . --fix`.
             <img src="https://avatars.githubusercontent.com/u/127842?v=4" width="100;" alt="njoyard"/>
             <br />
             <sub><b>njoyard</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Pixelik">
-            <img src="https://avatars.githubusercontent.com/u/1423394?v=4" width="100;" alt="Pixelik"/>
-            <br />
-            <sub><b>Pixelik</b></sub>
         </a>
     </td>
     <td align="center">
