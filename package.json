@@ -35,7 +35,7 @@
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-ember": "^11.0.5",
-    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-qunit": "^7.0.0",
     "prettier": "^2.3.0"
